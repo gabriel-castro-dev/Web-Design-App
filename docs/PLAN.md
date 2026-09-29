@@ -36,14 +36,16 @@ Agreed on 2026-09-29 (grill session). Vision and content pipeline: [PROJECT_VISI
 
 `kind` is `component` (has source files) or `image` (static reference). `subtype` is used for Web App (and later any section that grows).
 
-## Phase 0 — Content restructure
+## Phase 0 — Content restructure (done)
 
 1. Convert Dribbble and Pinterest files into item folders under their section (`web-app/<slug>/`, `auth/<slug>/`) and drop the `INDEX.md` files.
 2. Write a detailed visual-style `README.md` for every image item (48): layout, palette with hex values, typography, components, spacing and signature details, written so an agent can reproduce the style.
 3. Add `meta.json` to every item (component items included).
 4. Rename section folders to match section ids (`team-people` → `team`, `lists-items` → `lists`, ...).
 
-## Phase 1 — Visual direction bake-off
+## Phase 1 — Visual direction bake-off (done)
+
+Outcome: **Dark Studio / taste-skill** won and became the app (`src/app/`). The other five variants and the bake-off page were removed (see git history).
 
 1. Tailwind v4 + router + shared data layer (`src/data/`): loads items, sections, README, media URLs.
 2. Three directions, each implemented twice (impeccable and taste-skill), each variant covering Home and the detail page with real data:
@@ -54,14 +56,14 @@ Agreed on 2026-09-29 (grill session). Vision and content pipeline: [PROJECT_VISI
 4. `bakeoff.html`: tabs for the 3 directions (keys 1–3), split view with impeccable on the left and taste on the right (iframes), and `F` for fullscreen on one side.
 5. Deploy to Vercel. The owner picks one variant, and the rest are deleted.
 
-## Phase 2 — Final app
+## Phase 2 — Final app (done)
 
 1. Promote the chosen variant to the real app shell (header, sections, search, subtype chips).
 2. Detail page: media, actions, Description/Code tabs.
 3. Downloads: client-side zip (JSZip) and per-file download.
 4. Build step: `catalog.json`, `llms.txt`, `llms-full.txt` in `dist/`.
 5. Performance: `loading="lazy"` for images, and `preload="none"` plus an IntersectionObserver play/pause for videos. `vercel.json` sets `Cache-Control: public, max-age=31536000, immutable` for `/assets/*` and adds an SPA rewrite.
-6. Polish pass with impeccable (a11y, responsive, reduced motion).
+6. Polish pass (a11y, responsive, reduced motion): the chosen variant already covers these; revisit after real use.
 
 ## Phase 3 — Live previews (planned, not in v1)
 
