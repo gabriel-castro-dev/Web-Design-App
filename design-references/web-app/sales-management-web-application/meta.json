@@ -1,7 +1,14 @@
 {
-  "title": "Sales Management Web Application",
+  "title": "ProSale Sales Management Dashboard",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25068157-Sales-Management-Web-Application"
-  }
+  },
+  "tags": ["light", "navy-lime", "gradient-funnel", "kpi-cards", "bar-chart", "sales", "flat-cards"],
+  "animated": false,
+  "stack": [],
+  "summary": "Light sales overview with navy and lime palette and a stepped gradient pipeline funnel as hero chart"
 }

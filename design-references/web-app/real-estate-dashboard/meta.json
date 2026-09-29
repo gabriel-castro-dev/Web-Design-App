@@ -1,7 +1,14 @@
 {
   "title": "Real Estate Dashboard",
+  "section": "web-app",
+  "subtype": "ecommerce",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27637173-Real-Estate-Dashboard"
-  }
+  },
+  "tags": ["light", "three-pane", "photo-cards", "filter-sidebar", "blue-accent", "pill-controls", "real-estate"],
+  "animated": false,
+  "stack": [],
+  "summary": "Three-pane property marketplace with photo cards, inset white info panels and royal-blue selection"
 }

@@ -1,7 +1,14 @@
 {
-  "title": "Social Media Management Platform Dashboard UI UX Design",
+  "title": "Medica Social Media Post Composer",
+  "section": "web-app",
+  "subtype": "editor",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27652129-Social-Media-Management-Platform-Dashboard-UI-UX-Design"
-  }
+  },
+  "tags": ["light", "neutral-grey", "jade-green", "post-composer", "avatar-rail", "banded-table", "social-media"],
+  "animated": false,
+  "stack": [],
+  "summary": "Neutral grey social post composer with jade-green actions, account avatar rail and banded schedule table"
 }

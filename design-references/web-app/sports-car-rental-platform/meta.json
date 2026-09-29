@@ -1,7 +1,14 @@
 {
-  "title": "Sports Car Rental Platform",
+  "title": "Fillo Sports Car Rental",
+  "section": "web-app",
+  "subtype": "booking",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/21384305-Sports-Car-Rental-Platform"
-  }
+  },
+  "tags": ["light", "navy-header", "pastel-cards", "cutout-photos", "watermark-type", "search-console", "marketplace"],
+  "animated": false,
+  "stack": [],
+  "summary": "Car rental marketplace: navy header, segmented search console, pastel cards with cut-out cars on watermarks"
 }

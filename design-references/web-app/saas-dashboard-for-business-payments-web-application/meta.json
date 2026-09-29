@@ -1,7 +1,14 @@
 {
-  "title": "SaaS Dashboard for Business Payments Web Application",
+  "title": "Spendly Business Payments Dashboard",
+  "section": "web-app",
+  "subtype": "payments",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25270785-SaaS-Dashboard-for-Business-Payments-Web-Application"
-  }
+  },
+  "tags": ["light", "cobalt-blue", "kpi-cards", "line-chart", "radial-gauge", "bordered-cards", "fintech"],
+  "animated": false,
+  "stack": [],
+  "summary": "Cobalt fintech dashboard with bordered KPI cards, angular line chart and a radial tick-bar gauge"
 }

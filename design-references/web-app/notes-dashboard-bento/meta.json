@@ -1,8 +1,14 @@
 {
   "title": "Notes Dashboard Bento",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://i.pinimg.com/1200x/d9/30/bc/d930bcb8736ed8b9c44cf49073e250c9.jpg"
   },
-  "_seed": "bento-grid productivity dashboard. Large greeting headline, illustrated feature tiles, notifications with a lifted \"card pulled out\" swipe state, a calendar agenda, task progress rows, a violet \"Go premium\" card and ring-progress stats. Purple accent on off-white, with a curved sidebar shape."
+  "tags": ["bento-grid", "light", "violet-accent", "illustrated", "curved-sidebar", "soft-ui", "productivity"],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy violet-on-white bento dashboard with a curved blob sidebar, line-art tiles and lifted swipe cards"
 }

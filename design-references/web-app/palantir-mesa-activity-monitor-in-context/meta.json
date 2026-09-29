@@ -1,7 +1,14 @@
 {
-  "title": "Palantir Mesa activity monitor in context",
+  "title": "Palantir Mesa Activity Monitor",
+  "section": "web-app",
+  "subtype": "files",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/1798202-Palantir-Mesa-activity-monitor-in-context"
-  }
+  },
+  "tags": ["flat", "dense-table", "popover", "file-browser", "area-chart", "din-type", "technical"],
+  "animated": false,
+  "stack": [],
+  "summary": "Flat DIN-set file browser with a dense task-monitor popover and red-to-blue heat area charts"
 }

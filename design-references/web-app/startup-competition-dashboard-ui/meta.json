@@ -1,7 +1,14 @@
 {
-  "title": "Startup Competition Dashboard UI",
+  "title": "Pitchpott Startup Competition Dashboard",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27476996-Startup-Competition-Dashboard-UI"
-  }
+  },
+  "tags": ["luxury", "black-and-gold", "serif-display", "dark-sidebar", "warm-neutral", "kpi-cards", "editorial"],
+  "animated": false,
+  "stack": [],
+  "summary": "Luxury black-and-gold dashboard with serif gold-italic greeting, warm off-white canvas and sparkline KPIs"
 }

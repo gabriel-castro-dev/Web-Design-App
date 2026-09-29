@@ -1,7 +1,14 @@
 {
-  "title": "Password Settings Web App Design Adjective",
+  "title": "Password Settings",
+  "section": "web-app",
+  "subtype": "settings",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27614968-Password-Settings-Web-App-Design-Adjective"
-  }
+  },
+  "tags": ["light", "minimal", "form", "mesh-gradient", "session-list", "untitled-ui", "three-column"],
+  "animated": false,
+  "stack": [],
+  "summary": "Minimal Inter settings form with ink buttons, session list and a faint pastel mesh-gradient glow"
 }

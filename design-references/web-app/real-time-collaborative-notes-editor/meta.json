@@ -1,7 +1,14 @@
 {
-  "title": "Real Time Collaborative Notes Editor",
+  "title": "Real-Time Collaborative Notes Editor",
+  "section": "web-app",
+  "subtype": "editor",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25880647-Real-Time-Collaborative-Notes-Editor"
-  }
+  },
+  "tags": ["whiteboard", "sticky-notes", "multiplayer-cursors", "pastel", "dotted-canvas", "collaboration", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Dotted-canvas persona board with pastel square stickies and loud named multiplayer cursors"
 }

@@ -1,7 +1,14 @@
 {
-  "title": "Property Map Search Web App",
+  "title": "Property Map Search",
+  "section": "web-app",
+  "subtype": "map",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27437177-Property-Map-Search-Web-App"
-  }
+  },
+  "tags": ["light", "split-view", "greyscale-map", "teal-accent", "pill-nav", "price-pins", "real-estate"],
+  "animated": false,
+  "stack": [],
+  "summary": "List-plus-map property search: greyscale atlas map, teal geofence, price-bubble pins and pill filters"
 }

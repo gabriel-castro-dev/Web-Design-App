@@ -1,7 +1,14 @@
 {
-  "title": "Sales Pipeline Enterprise Deal Tracking SaaS Interface",
+  "title": "Relay CRM Sales Pipeline",
+  "section": "web-app",
+  "subtype": "crm",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27454088-Sales-Pipeline-Enterprise-Deal-Tracking-SaaS-Interface"
-  }
+  },
+  "tags": ["light", "kanban", "detail-drawer", "forest-green", "activity-timeline", "spacious", "uppercase-labels"],
+  "animated": false,
+  "stack": [],
+  "summary": "Spacious forest-green CRM kanban with a deal drawer breaking out of the frame and an activity timeline"
 }
