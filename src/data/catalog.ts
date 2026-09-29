@@ -32,12 +32,17 @@ const sources = import.meta.glob<string>('/design-references/*/*/*.{tsx,ts,css}'
   import: 'default',
 })
 
+const highlighted = import.meta.glob<string>('/design-references/*/*/*.{tsx,ts,css}', {
+  query: '?highlight',
+  import: 'default',
+})
+
 const ROOT = '/design-references/'
 
 function filesOf(dir: string): SourceFile[] {
   return Object.entries(sources)
     .filter(([path]) => path.startsWith(dir))
-    .map(([path, load]) => ({ name: path.slice(dir.length), load }))
+    .map(([path, load]) => ({ name: path.slice(dir.length), load, loadHtml: highlighted[path] }))
     // component first, demo last
     .sort((a, b) => Number(a.name === 'demo.tsx') - Number(b.name === 'demo.tsx') || a.name.localeCompare(b.name))
 }

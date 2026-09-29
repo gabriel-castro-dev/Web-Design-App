@@ -202,7 +202,7 @@ function Code({ item }: { item: Item }) {
     )
   return (
     <div className="ds-files">
-      {files.map(({ file, code }) => (
+      {files.map(({ file, code, html }) => (
         <section key={file.name} className="ds-file" aria-label={file.name}>
           <div className="ds-file__head">
             <div className="ds-file__name">
@@ -218,9 +218,8 @@ function Code({ item }: { item: Item }) {
               Download <span aria-hidden="true">↓</span>
             </button>
           </div>
-          <pre tabIndex={0}>
-            <code>{code}</code>
-          </pre>
+          {/* build-time Shiki output from our own repo files, not user input */}
+          <div dangerouslySetInnerHTML={{ __html: html }} />
         </section>
       ))}
     </div>

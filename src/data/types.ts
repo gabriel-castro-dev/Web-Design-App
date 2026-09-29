@@ -15,6 +15,8 @@ export interface ItemMeta {
 export interface SourceFile {
   name: string
   load: () => Promise<string>
+  /** Shiki-highlighted HTML (`<pre class="shiki">`), rendered at build time */
+  loadHtml: () => Promise<string>
 }
 
 export interface Item extends ItemMeta {

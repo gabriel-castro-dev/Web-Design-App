@@ -15,16 +15,16 @@ export function useReadme(item: Item | undefined) {
   return text
 }
 
-/** Loads the contents of every source file of an item. */
+/** Loads every source file of an item: raw text plus build-time highlighted HTML. */
 export function useSourceFiles(item: Item | undefined) {
-  const [files, setFiles] = useState<{ file: SourceFile; code: string }[]>([])
+  const [files, setFiles] = useState<{ file: SourceFile; code: string; html: string }[]>([])
   useEffect(() => {
     let alive = true
     setFiles([])
     if (item)
-      Promise.all(item.files.map(async (file) => ({ file, code: await file.load() }))).then(
-        (loaded) => alive && setFiles(loaded),
-      )
+      Promise.all(
+        item.files.map(async (file) => ({ file, code: await file.load(), html: await file.loadHtml() })),
+      ).then((loaded) => alive && setFiles(loaded))
     return () => {
       alive = false
     }
