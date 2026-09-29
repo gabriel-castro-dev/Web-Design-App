@@ -1,0 +1,224 @@
+/* Reconstructed from 21st.dev bundle: osmosupply/parallax-scrolling (compiled global CSS, reformatted).
+   Unused helper classes from the original (.cloneable, .cover, .cover-copy, .parallax__placeholder,
+   .parallax__radial-gradient, .parallax__layer-img.is-third) are kept for completeness. */
+
+@font-face {
+  font-family: "PP Neue Corp Wide";
+  src: url("https://cdn.prod.website-files.com/671752cd4027f01b1b8f1c7f/6717e399d30a606fed425914_PPNeueCorp-WideUltrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url("https://cdn.prod.website-files.com/6819ed8312518f61b84824df/6819ed8312518f61b84825ba_PPNeueMontreal-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Global page styles from the original. NOTE: the source had `color: #efe EEC` (invalid → ignored);
+   #efeeec is clearly the intent (same off-white as the credits link). */
+body {
+  color: #efeeec;
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b239d7aeb290a31ac5_cursor-default%402x.svg") 2 0, auto;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-size: 1vw;
+}
+
+a,
+button {
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg") 12 0, pointer;
+}
+
+.cloneable {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  position: relative;
+}
+
+.parallax {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax__header {
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: 100px 50px;
+  display: flex;
+  position: relative;
+}
+
+.parallax__content {
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  padding: 100px 50px;
+  display: flex;
+  position: relative;
+}
+
+.cover,
+.cover-copy {
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 120% tall: the image stack overhangs the header by 20% at the bottom. */
+.parallax__visuals {
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 120%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parallax__placeholder {
+  z-index: 0;
+  opacity: 0;
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parallax__layers {
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* Bottom 20% fade to black, eased multi-stop gradient (no banding). */
+.parallax__fade {
+  z-index: 30;
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#0000, #00000001 1.8%, #00000002 4.8%, #00000005 9%, #0000000b 13.9%, #00000013 19.8%, #00000020 27%, #00000031 35%, #00000047 43.5%, #00000061 53%, #0000008a 66%, #000000bc 81%, #000);
+}
+
+/* 2px black line hiding any sub-pixel seam at the bottom edge. */
+.parallax__black-line-overflow {
+  z-index: 20;
+  background-color: #000;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.parallax__title {
+  pointer-events: auto;
+  text-align: center;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  margin-right: 0.075em;
+  font-family: "PP Neue Corp Wide", sans-serif;
+  font-size: 11vw;
+  font-weight: 800;
+  line-height: 1;
+  position: relative;
+}
+
+.parallax__radial-gradient {
+  z-index: 10;
+  opacity: 0.5;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(circle, #0000, #000);
+  position: fixed;
+  inset: 0;
+}
+
+.parallax__layer-title {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100svh;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Images are 117.5% tall and start 17.5% above the frame, so they have headroom to slide down. */
+.parallax__layer-img {
+  pointer-events: none;
+  object-fit: cover;
+  width: 100%;
+  max-width: none;
+  height: 117.5%;
+  position: absolute;
+  top: -17.5%;
+  left: 0;
+}
+
+.parallax__layer-img.is-third {
+  top: -20%;
+}
+
+.osmo-icon-svg {
+  width: 8em;
+  position: relative;
+}
+
+.osmo-credits {
+  z-index: 999;
+  pointer-events: none;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  padding: 1em;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.osmo-credits__p {
+  pointer-events: auto;
+  color: #efeeec80;
+  text-align: center;
+  margin: 0;
+  font-family: "PP Neue Montreal", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.osmo-credits__p-a {
+  color: #efeeec;
+}
