@@ -89,6 +89,7 @@ export function agentCatalog({ site }: { site: string }): Plugin {
           page: `${site}/effect/${id}`,
           readme: `${refs}/README.md`,
           files: files.map((f) => `${refs}/${f}`),
+          live: existsSync(join(dir, 'demo.tsx')) ? `${site}/preview.html?item=${id}` : undefined,
           preview: assetUrl(join(dir, 'preview.webp')),
           video: existsSync(join(dir, 'preview.mp4')) ? assetUrl(join(dir, 'preview.mp4')) : undefined,
         }
