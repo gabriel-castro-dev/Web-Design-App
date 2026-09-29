@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.refs.tsbuildinfo",
+    /* reference components are data: don't fail on unused helpers kept from the originals */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": ["design-references", "src/components", "src/lib/utils.ts"]
+}

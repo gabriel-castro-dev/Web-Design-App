@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "compress": "node scripts/compress-media.mjs"
+    "compress": "node scripts/compress-media.mjs",
+    "typecheck:refs": "tsc -p tsconfig.refs.json --noEmit"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

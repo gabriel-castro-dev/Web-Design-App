@@ -1,12 +1,12 @@
 // Reconstructed from 21st.dev bundle: osmosupply/parallax-scrolling
-// Requires: gsap (+ ScrollTrigger), @studio-freight/lenis, ./parallax-scrolling.css (plain CSS, not Tailwind —
+// Requires: gsap (+ ScrollTrigger), lenis (formerly @studio-freight/lenis), ./parallax-scrolling.css (plain CSS, not Tailwind —
 // the bundle shipped these rules as a compiled global stylesheet)
 "use client";
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import "./parallax-scrolling.css";
 
 // Layer 1 (back) moves the most, layer 4 (front) the least → depth.

@@ -1,7 +1,7 @@
 'use client';
 
 import { PricingCard } from './pricing-card';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 
 // --- ICONS for the demo ---
 const RocketIcon = () => (
@@ -22,7 +22,7 @@ const BuildingIcon = () => (
 
 
 // --- FADE-IN ANIMATION VARIANTS ---
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -31,7 +31,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
