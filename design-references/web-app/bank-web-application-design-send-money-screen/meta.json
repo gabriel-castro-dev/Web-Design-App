@@ -1,7 +1,22 @@
 {
-  "title": "Bank Web Application Design Send Money screen",
+  "title": "Mkb Bank: Send Money Screen",
+  "section": "web-app",
+  "subtype": "payments",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/15529365-Bank-Web-Application-Design-Send-Money-screen"
-  }
+  },
+  "tags": [
+    "monochrome",
+    "black-and-white",
+    "fintech",
+    "avatar-carousel",
+    "virtual-card",
+    "curved-nav-cutout",
+    "warm-backdrop"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Monochrome black/white transfer flow with curved sidebar cut-out, ring-arc cards and portrait receivers"
 }

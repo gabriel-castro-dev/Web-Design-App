@@ -1,7 +1,22 @@
 {
-  "title": "e commerce Web Application",
+  "title": "Salerush Sales Dashboard",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/24773053-e-commerce-Web-Application"
-  }
+  },
+  "tags": [
+    "light",
+    "bento",
+    "nested-trays",
+    "azure-navy",
+    "rounded-bars",
+    "hatched-ghost-bars",
+    "light-weight-type"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Soft bento sales dashboard with nested rounded trays, azure/navy slab bars and hatched ghost tops"
 }

@@ -1,7 +1,22 @@
 {
-  "title": "AI web application for transcription and note taking service",
+  "title": "Riser: AI Meeting Transcription Home",
+  "section": "web-app",
+  "subtype": "calendar",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/24369801-AI-web-application-for-transcription-and-note-taking-service"
-  }
+  },
+  "tags": [
+    "light",
+    "lilac",
+    "violet-accent",
+    "three-column",
+    "meeting-cards",
+    "mini-calendar",
+    "avatar-stack"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy lilac-white meeting notes app with one hot violet record accent, summary cards and a calendar rail"
 }

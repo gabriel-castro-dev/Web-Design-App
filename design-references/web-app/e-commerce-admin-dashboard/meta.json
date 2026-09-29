@@ -1,7 +1,22 @@
 {
-  "title": "E Commerce Admin Dashboard",
+  "title": "ProfitPulse Orders Admin",
+  "section": "web-app",
+  "subtype": "ecommerce",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25525216-E-Commerce-Admin-Dashboard"
-  }
+  },
+  "tags": [
+    "warm-neutral",
+    "ink-sidebar",
+    "orders-table",
+    "pastel-status-pills",
+    "detail-drawer",
+    "butter-yellow",
+    "lifted-row"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Warm paper orders admin with ink sidebar, pastel status pills, lifted selected row and detail drawer"
 }

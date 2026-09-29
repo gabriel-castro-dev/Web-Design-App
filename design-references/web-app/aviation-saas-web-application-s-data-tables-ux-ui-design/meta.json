@@ -1,7 +1,21 @@
 {
-  "title": "Aviation SAAS Web Application s Data Tables UX UI Design",
+  "title": "Aviation Flight Log Data Table",
+  "section": "web-app",
+  "subtype": "data-table",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/22865051-Aviation-SAAS-Web-Application-s-Data-Tables-UX-UI-Design"
-  }
+  },
+  "tags": [
+    "enterprise",
+    "royal-blue-sidebar",
+    "dense-table",
+    "pastel-status-chips",
+    "filter-chips",
+    "pagination"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Enterprise flight log table with royal-blue sidebar, airline logos and a pastel status-chip matrix"
 }

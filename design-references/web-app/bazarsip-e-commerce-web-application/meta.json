@@ -1,7 +1,22 @@
 {
-  "title": "Bazarsip E Commerce Web Application",
+  "title": "Bazarsip Streetwear Store",
+  "section": "web-app",
+  "subtype": "ecommerce",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27330013-Bazarsip-E-Commerce-Web-Application"
-  }
+  },
+  "tags": [
+    "storefront",
+    "black-and-white",
+    "editorial-photography",
+    "uppercase-tracked",
+    "pill-buttons",
+    "product-grid",
+    "poppins"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Black/white streetwear store with editorial photos, tracked uppercase names and black pill cart buttons"
 }

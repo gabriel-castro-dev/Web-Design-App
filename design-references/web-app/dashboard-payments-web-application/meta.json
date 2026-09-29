@@ -1,7 +1,22 @@
 {
-  "title": "dashboard payments web application",
+  "title": "Openbank Payments",
+  "section": "web-app",
+  "subtype": "payments",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/16023546-dashboard-payments-web-application"
-  }
+  },
+  "tags": [
+    "swiss",
+    "editorial",
+    "black-and-white",
+    "hairline-rules",
+    "underline-inputs",
+    "pastel-tiles",
+    "3d-card-art"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Swiss-editorial banking screen with hairline rules, underline forms, pastel tiles and 3D ribbon cards"
 }

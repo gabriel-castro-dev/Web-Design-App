@@ -1,7 +1,22 @@
 {
   "title": "API Keys",
+  "section": "web-app",
+  "subtype": "settings",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25532538-API-Keys"
-  }
+  },
+  "tags": [
+    "dark",
+    "monochrome",
+    "developer-tools",
+    "data-table",
+    "status-dots",
+    "monospace",
+    "dither-texture"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Charcoal developer table with mono masked keys, dot-only status pills and a violet create button"
 }

@@ -1,7 +1,22 @@
 {
-  "title": "Cloud storage dashboard",
+  "title": "File Hfilx Cloud Storage",
+  "section": "web-app",
+  "subtype": "files",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/26395273-Cloud-storage-dashboard"
-  }
+  },
+  "tags": [
+    "light",
+    "petrol-teal",
+    "lime-accent",
+    "half-donut-gauge",
+    "floating-panels",
+    "folder-tiles",
+    "airy"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy file manager with teal/lime storage gauge, earthy folder icons and panels over a misty backdrop"
 }

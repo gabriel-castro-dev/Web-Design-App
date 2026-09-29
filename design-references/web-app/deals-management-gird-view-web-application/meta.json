@@ -1,7 +1,22 @@
 {
-  "title": "Deals Management Gird View Web Application",
+  "title": "Fixoria CRM: Deals Kanban",
+  "section": "web-app",
+  "subtype": "crm",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25301019-Deals-Management-Gird-View-Web-Application"
-  }
+  },
+  "tags": [
+    "light",
+    "kanban",
+    "saas",
+    "inter",
+    "outlined-pastel-tags",
+    "blue-accent",
+    "deal-cards"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Clean SaaS deals kanban with white columns, outlined pastel tags and a single bright blue accent"
 }

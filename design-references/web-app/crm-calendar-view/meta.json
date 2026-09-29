@@ -1,7 +1,22 @@
 {
-  "title": "CRM Calendar view",
+  "title": "CRM Calendar Month View",
+  "section": "web-app",
+  "subtype": "calendar",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/18853183-CRM-Calendar-view"
-  }
+  },
+  "tags": [
+    "light",
+    "neutral",
+    "violet-accent",
+    "month-grid",
+    "pastel-event-chips",
+    "hatched-cells",
+    "activity-feed"
+  ],
+  "animated": false,
+  "stack": [],
+  "summary": "Neutral CRM month calendar with pastel event chips, hatched off-month days and a violet today marker"
 }
