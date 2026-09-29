@@ -1,7 +1,14 @@
 {
-  "title": "Tasko ll Task Management Web Application",
+  "title": "Tasko II Task Management Dashboard",
+  "section": "web-app",
+  "subtype": "tasks",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/15815965-Tasko-ll-Task-Management-Web-Application"
-  }
+  },
+  "tags": ["light", "kpi-cards", "area-chart", "donut-chart", "soft-shadow", "colorful-icons", "sidebar-nav"],
+  "animated": false,
+  "stack": [],
+  "summary": "Light task dashboard with color-coded KPI sliders, mint spline chart and a breakout green donut card"
 }

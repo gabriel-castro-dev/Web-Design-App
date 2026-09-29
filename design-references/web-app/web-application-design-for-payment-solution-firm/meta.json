@@ -1,7 +1,14 @@
 {
-  "title": "Web Application Design for Payment Solution Firm",
+  "title": "XPay Payment Gateway Transactions",
+  "section": "web-app",
+  "subtype": "payments",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/23850103-Web-Application-Design-for-Payment-Solution-Firm"
-  }
+  },
+  "tags": ["light", "data-table", "status-badges", "black-rail", "violet-accent", "back-office", "fintech"],
+  "animated": false,
+  "stack": [],
+  "summary": "Merchant transactions table with a black icon rail, violet actions and outlined multi-hue status badges"
 }

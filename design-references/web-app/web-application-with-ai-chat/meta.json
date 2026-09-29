@@ -1,7 +1,14 @@
 {
-  "title": "Web Application with AI Chat",
+  "title": "Quality Portal with AI Assist",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27738772-Web-Application-with-AI-Chat"
-  }
+  },
+  "tags": ["light", "enterprise", "ai-assistant", "navy-header", "dense", "suggestion-cards", "split-layout"],
+  "animated": false,
+  "stack": [],
+  "summary": "Dense enterprise portal: navy hero dashboard beside a pastel-washed AI assistant with intent-coded prompts"
 }

@@ -1,7 +1,14 @@
 {
-  "title": "TeddX CRM Web Application UI",
+  "title": "TeddX CRM Dashboard",
+  "section": "web-app",
+  "subtype": "crm",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25934267-TeddX-CRM-Web-Application-UI"
-  }
+  },
+  "tags": ["light", "pastel", "gradient-background", "kpi-cards", "donut-chart", "top-nav", "rounded-cards"],
+  "animated": false,
+  "stack": [],
+  "summary": "Pastel CRM overview: white rounded cards on a blush-periwinkle gradient with lavender and mint charts"
 }

@@ -1,0 +1,14 @@
+{
+  "title": "Sewo Real Estate Login",
+  "section": "auth",
+  "subtype": "login",
+  "kind": "image",
+  "source": {
+    "name": "Dribbble",
+    "url": "https://dribbble.com/shots/27645188-Web-Application-Login-Sewo"
+  },
+  "tags": ["light", "split-screen", "royal-blue", "photo-panel", "floating-widget", "social-login", "responsive"],
+  "animated": false,
+  "stack": [],
+  "summary": "Blue-and-white split login: photo with floating search widget on the left, clean form on the right"
+}

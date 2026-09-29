@@ -1,7 +1,14 @@
 {
-  "title": "Task Management Web Application",
+  "title": "Task Management Calendar",
+  "section": "web-app",
+  "subtype": "calendar",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/10813628-Task-Management-Web-Application"
-  }
+  },
+  "tags": ["light", "month-calendar", "pastel-status", "outlined-cards", "event-popover", "icon-rail", "indigo-accent"],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy month calendar with pastel workload-tinted cells, outlined cards and one shadowed event popover"
 }

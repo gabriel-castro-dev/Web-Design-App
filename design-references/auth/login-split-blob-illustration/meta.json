@@ -1,8 +1,14 @@
 {
-  "title": "Login Split Blob Illustration",
+  "title": "Blob Illustration Split Login",
+  "section": "auth",
+  "subtype": "login",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://i.pinimg.com/1200x/33/b2/a3/33b2a3fe3319c92a6b3b170485197587.jpg"
   },
-  "_seed": "split login. An organic white blob with an illustration and floating bubbles on the left, dark green form panel on the right, dark pill inputs and a teal pill button."
+  "tags": ["dark-green", "split-screen", "organic-blob", "illustration", "pill-inputs", "bubbles", "monochrome"],
+  "animated": false,
+  "stack": [],
+  "summary": "Split login with a white organic blob illustration panel and a forest-green form with dark pill inputs"
 }

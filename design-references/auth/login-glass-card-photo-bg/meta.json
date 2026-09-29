@@ -1,8 +1,14 @@
 {
-  "title": "Login Glass Card Photo Bg",
+  "title": "Glass Card Login on Lavender Night Photo",
+  "section": "auth",
+  "subtype": "login",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://i.pinimg.com/originals/eb/e1/b8/ebe1b853303e655311258157895948df.jpg"
   },
-  "_seed": "glassmorphism login card centered over a full-bleed lavender-field night photo. Two-tone headline (\"Welcome back!\" with a lighter accent word), translucent pill inputs, a violet focus ring, a white pill primary button and an outlined Google button."
+  "tags": ["dark", "glassmorphism", "photo-background", "centered-card", "pill-inputs", "violet", "wellness"],
+  "animated": false,
+  "stack": [],
+  "summary": "Frosted glass login card over a twilight lavender-field photo with pill inputs and a white pill CTA"
 }

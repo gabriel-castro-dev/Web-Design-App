@@ -1,8 +1,14 @@
 {
-  "title": "User Profile Kodecolor",
+  "title": "Kodecolor User Profile",
+  "section": "web-app",
+  "subtype": "profile",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://cdn-images-1.medium.com/v2/resize:fit:800/1*Sdfm4E98ugZGQ-u5Xoa83g.png"
   },
-  "_seed": "clean light profile page on a saturated blue backdrop. Two columns: photo + work/skills list on the left, name, star rating, action row, tabs and a label/value contact grid on the right. Tiny uppercase section labels, lots of whitespace, a single blue accent."
+  "tags": ["light", "minimal", "single-accent", "two-column", "definition-list", "tinted-badges", "material-blue"],
+  "animated": false,
+  "stack": [],
+  "summary": "Minimal white profile sheet on Material blue: portrait, tiny caps labels, tinted badges, label/value grid"
 }

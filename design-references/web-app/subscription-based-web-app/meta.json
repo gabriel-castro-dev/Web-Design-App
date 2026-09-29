@@ -1,7 +1,14 @@
 {
-  "title": "Subscription based Web App",
+  "title": "ShareFlow Subscription Web App",
+  "section": "web-app",
+  "subtype": "profile",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/25543290-Subscription-based-Web-App"
-  }
+  },
+  "tags": ["light", "pill-buttons", "creator-profile", "social-feed", "gradient-card", "outlined", "vermilion-accent"],
+  "animated": false,
+  "stack": [],
+  "summary": "Light creator profile feed with pill UI, navy actions, vermilion accents and a red gradient premium card"
 }

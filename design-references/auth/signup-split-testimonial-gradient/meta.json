@@ -1,8 +1,14 @@
 {
-  "title": "Signup Split Testimonial Gradient",
+  "title": "Orange Gradient Signup with Testimonial Panel",
+  "section": "auth",
+  "subtype": "signup",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://i.pinimg.com/736x/f9/27/14/f92714cb5c0a87b03698ef00d9c45649.jpg"
   },
-  "_seed": "sign-up card on an orange gradient backdrop. Form on the left (orange gradient CTA, 3 social buttons), and on the right a blurred warm-gradient image panel with tag chips, a frosted testimonial quote and arrow controls tucked into a notched corner."
+  "tags": ["warm", "orange-gradient", "split-card", "testimonial", "frosted-glass", "notched-corner", "social-login"],
+  "animated": false,
+  "stack": [],
+  "summary": "Off-white signup card on tangerine gradient with blurred image panel, frosted quote and notched arrow corner"
 }
