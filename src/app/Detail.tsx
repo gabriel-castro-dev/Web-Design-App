@@ -10,7 +10,7 @@ import { copyText, downloadFile, downloadZip } from '../lib/item-actions'
 import { Card, Footer, Glyph, Header, MotionTag } from './parts'
 import { kindLabel, prefersReducedMotion } from './util'
 
-function Stage({ item }: { item: Item }) {
+function Recording({ item }: { item: Item }) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [paused, setPaused] = useState(() => prefersReducedMotion())
 
@@ -28,39 +28,83 @@ function Stage({ item }: { item: Item }) {
   }
 
   return (
-    <figure className="ds-stage ds-rise">
-      <div className="ds-shell">
-        <div className="ds-core">
-          {item.media.video ? (
-            <>
-              <video
-                ref={videoRef}
-                src={item.media.video}
-                poster={item.media.image}
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                aria-label={`Preview recording of ${item.title}`}
-                onPlay={() => setPaused(false)}
-                onPause={() => setPaused(true)}
-              />
-              <button type="button" className="ds-stage__toggle" onClick={toggle}>
-                {paused ? 'Play preview' : 'Pause preview'}
-              </button>
-            </>
-          ) : item.media.image ? (
-            <a href={item.media.image} target="_blank" rel="noreferrer" className="ds-stage__image-link">
-              <img src={item.media.image} alt={`Full preview of ${item.title}`} />
-              <span className="ds-sr">(opens full size in a new tab)</span>
-            </a>
-          ) : (
-            <p className="ds-mono" style={{ color: 'var(--ds-text-3)', padding: 48 }}>
-              No preview available.
-            </p>
-          )}
-        </div>
+    <div className="ds-shell">
+      <div className="ds-core">
+        {item.media.video ? (
+          <>
+            <video
+              ref={videoRef}
+              src={item.media.video}
+              poster={item.media.image}
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-label={`Preview recording of ${item.title}`}
+              onPlay={() => setPaused(false)}
+              onPause={() => setPaused(true)}
+            />
+            <button type="button" className="ds-stage__toggle" onClick={toggle}>
+              {paused ? 'Play preview' : 'Pause preview'}
+            </button>
+          </>
+        ) : item.media.image ? (
+          <a href={item.media.image} target="_blank" rel="noreferrer" className="ds-stage__image-link">
+            <img src={item.media.image} alt={`Full preview of ${item.title}`} />
+            <span className="ds-sr">(opens full size in a new tab)</span>
+          </a>
+        ) : (
+          <p className="ds-mono" style={{ color: 'var(--ds-text-3)', padding: 48 }}>
+            No preview available.
+          </p>
+        )}
       </div>
+    </div>
+  )
+}
+
+/** Live render of the item's demo.tsx, isolated in its own document (preview.html). */
+function LiveFrame({ item }: { item: Item }) {
+  return (
+    <div className="ds-shell">
+      <div className="ds-core ds-core--live">
+        <iframe src={`/preview.html?item=${item.id}`} title={`Live preview of ${item.title}`} className="ds-stage__frame" />
+      </div>
+    </div>
+  )
+}
+
+type StageMode = 'recording' | 'live'
+
+function Stage({ item }: { item: Item }) {
+  const [mode, setMode] = useState<StageMode>('recording')
+  const modes: { id: StageMode; label: string }[] = [
+    { id: 'recording', label: item.media.video ? 'Recording' : 'Preview' },
+    { id: 'live', label: 'Live' },
+  ]
+  return (
+    <figure className="ds-stage ds-rise">
+      {item.demo && (
+        <div className="ds-stage__bar">
+          <div className="ds-stage__modes" role="group" aria-label="Preview mode">
+            {modes.map((m) => (
+              <button
+                key={m.id}
+                type="button"
+                className="ds-chip"
+                aria-pressed={mode === m.id}
+                onClick={() => setMode(m.id)}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+          <a href={`/preview.html?item=${item.id}`} target="_blank" rel="noreferrer" className="ds-stage__open ds-mono">
+            Open live in new tab <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      )}
+      {mode === 'live' ? <LiveFrame item={item} /> : <Recording item={item} />}
     </figure>
   )
 }

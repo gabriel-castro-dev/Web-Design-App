@@ -64,6 +64,7 @@ export const items: Item[] = Object.entries(metas)
       },
       readme: readmes[`${dir}README.md`] ?? (async () => ''),
       files: filesOf(dir),
+      demo: `${dir}demo.tsx` in sources,
     }
   })
   .sort((a, b) => a.title.localeCompare(b.title))

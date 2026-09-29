@@ -30,6 +30,8 @@ export interface Item extends ItemMeta {
   }
   readme: () => Promise<string>
   files: SourceFile[]
+  /** has a demo.tsx that renders live in /preview.html */
+  demo: boolean
 }
 
 export interface Section {
