@@ -3,7 +3,7 @@
 - **Section:** Team / People
 - **Source:** https://21st.dev/@ravikatiyar162/components/photo-stack
 - **Stack:** React + TypeScript, Tailwind CSS v4, shadcn-style tokens (`bg-background`, `text-foreground`), `cn()` (clsx + tailwind-merge). No animation library — pure CSS transitions.
-- **Files:** `interactive-photo-stack.tsx` (component + demo), `preview.webp`, `preview.mp4`
+- **Files:** `interactive-photo-stack.tsx` (component + demo data), `demo.tsx` (re-exports the demo), `preview.webp`, `preview.mp4`
 
 ## What it looks like
 

@@ -145,8 +145,13 @@ function InfiniteSliderVertical() {
   );
 }
 
-export default {
-  InfiniteSliderBasic,
-  InfiniteSliderHoverSpeed,
-  InfiniteSliderVertical,
-};
+// The original demo default-exported the three variants as an object; render them together instead.
+export default function InfiniteSliderDemo() {
+  return (
+    <div className='flex flex-col items-center gap-16 py-12'>
+      <InfiniteSliderBasic />
+      <InfiniteSliderHoverSpeed />
+      <InfiniteSliderVertical />
+    </div>
+  );
+}
