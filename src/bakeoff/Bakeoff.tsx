@@ -21,7 +21,8 @@ export function Bakeoff() {
   }, [dir, view])
 
   const onKey = useCallback((e: KeyboardEvent) => {
-    if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+    // instanceof fails for elements from an iframe's window, so check by tag
+    if ((e.target as Element | null)?.closest?.('input, textarea, [contenteditable]')) return
     const n = Number(e.key)
     if (n >= 1 && n <= DIRECTIONS.length) setState((s) => ({ ...s, dir: DIRECTIONS[n - 1].id }))
     if (e.key === 'f' || e.key === 'F')
