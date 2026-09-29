@@ -1,9 +1,9 @@
 import { useState, type CSSProperties, type ReactNode } from 'react'
 import { Link } from 'react-router'
-import { sections } from '../../../data/catalog'
-import { subtypeLabel } from '../../../data/sections'
-import type { Item } from '../../../data/types'
-import { useInViewVideo } from '../../../lib/hooks'
+import { sections } from '../data/catalog'
+import { subtypeLabel } from '../data/sections'
+import type { Item } from '../data/types'
+import { useInViewVideo } from '../lib/hooks'
 import { kindLabel, useReveal } from './util'
 
 export function Glyph({ children }: { children: ReactNode }) {
@@ -51,13 +51,11 @@ export function InViewVideo({ src, className }: { src: string; className?: strin
 
 export function Card({
   item,
-  base,
   index = 0,
   feature = false,
   headingLevel = 3,
 }: {
   item: Item
-  base: string
   index?: number
   feature?: boolean
   headingLevel?: 2 | 3
@@ -70,7 +68,7 @@ export function Card({
       className={`ds-card ds-reveal${feature ? ' ds-feature' : ''}`}
       style={{ '--i': index % 3 } as CSSProperties}
     >
-      <Link to={`${base}/effect/${item.id}`} className="ds-card__link">
+      <Link to={`/effect/${item.id}`} className="ds-card__link">
         <div className="ds-shell">
           <div className="ds-core ds-card__media">
             {item.media.thumb && (
@@ -97,12 +95,10 @@ export function Card({
 }
 
 export function Header({
-  base,
   activeSection,
   onAnchor,
   children,
 }: {
-  base: string
   activeSection?: string
   /** When set, anchors scroll in place (Home). Otherwise they route back to Home. */
   onAnchor?: (id: string) => void
@@ -112,7 +108,7 @@ export function Header({
     <header className="ds-header">
       <div className="ds-wrap">
         <div className="ds-header__bar">
-          <Link to={base} className="ds-mark" aria-label="Web Design Library, home">
+          <Link to="/" className="ds-mark" aria-label="Web Design Library, home">
             Web Design <em>Library</em>
           </Link>
           <nav className="ds-anchors" aria-label="Sections">
@@ -132,7 +128,7 @@ export function Header({
                       {s.label}
                     </a>
                   ) : (
-                    <Link to={{ pathname: base, hash: s.id }} className="ds-anchor" aria-current={activeSection === s.id ? 'true' : undefined}>
+                    <Link to={{ pathname: '/', hash: s.id }} className="ds-anchor" aria-current={activeSection === s.id ? 'true' : undefined}>
                       {s.label}
                     </Link>
                   )}

@@ -2,11 +2,11 @@ import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { Link, useParams } from 'react-router'
-import { getItem, items } from '../../../data/catalog'
-import { sectionLabel, subtypeLabel } from '../../../data/sections'
-import type { Item } from '../../../data/types'
-import { useReadme, useSourceFiles } from '../../../lib/hooks'
-import { copyText, downloadFile, downloadZip } from '../../../lib/item-actions'
+import { getItem, items } from '../data/catalog'
+import { sectionLabel, subtypeLabel } from '../data/sections'
+import type { Item } from '../data/types'
+import { useReadme, useSourceFiles } from '../lib/hooks'
+import { copyText, downloadFile, downloadZip } from '../lib/item-actions'
 import { Card, Footer, Glyph, Header, MotionTag } from './parts'
 import { kindLabel, prefersReducedMotion } from './util'
 
@@ -341,14 +341,14 @@ function Facts({ item }: { item: Item }) {
   )
 }
 
-function ItemView({ item, base }: { item: Item; base: string }) {
+function ItemView({ item }: { item: Item }) {
   const { text } = useReadmeState(item)
   const more = getSiblings(item).slice(0, 3)
 
   return (
     <>
       <nav className="ds-crumbs ds-mono" aria-label="Breadcrumb">
-        <Link to={{ pathname: base, hash: item.section }}>
+        <Link to={{ pathname: '/', hash: item.section }}>
           <Glyph>←</Glyph>
           {sectionLabel(item.section)}
         </Link>
@@ -375,13 +375,13 @@ function ItemView({ item, base }: { item: Item; base: string }) {
         <section className="ds-more" aria-labelledby="ds-more-title">
           <h2 id="ds-more-title">
             More from {sectionLabel(item.section)}
-            <Link to={{ pathname: base, hash: item.section }} className="ds-pill ds-pill--sm">
+            <Link to={{ pathname: '/', hash: item.section }} className="ds-pill ds-pill--sm">
               All {sectionLabel(item.section)} <span aria-hidden="true">→</span>
             </Link>
           </h2>
           <ul className="ds-grid">
             {more.map((m, i) => (
-              <Card key={m.id} item={m} base={base} index={i} />
+              <Card key={m.id} item={m} index={i} />
             ))}
           </ul>
         </section>
@@ -397,7 +397,7 @@ function getSiblings(item: Item) {
   return [...pool.slice(at + 1), ...pool.slice(0, at)]
 }
 
-export function Detail({ base }: { base: string }) {
+export function Detail() {
   const { section = '', slug = '' } = useParams()
   const item = getItem(`${section}/${slug}`)
 
@@ -412,21 +412,21 @@ export function Detail({ base }: { base: string }) {
       <a href="#ds-main" className="ds-skip">
         Skip to content
       </a>
-      <Header base={base} activeSection={item?.section}>
-        <Link to={item ? { pathname: base, hash: item.section } : base} className="ds-header__back">
+      <Header activeSection={item?.section}>
+        <Link to={item ? { pathname: '/', hash: item.section } : '/'} className="ds-header__back">
           <Glyph>←</Glyph>
           Library
         </Link>
       </Header>
       <main id="ds-main" className="ds-wrap ds-detail" tabIndex={-1}>
         {item ? (
-          <ItemView key={item.id} item={item} base={base} />
+          <ItemView key={item.id} item={item} />
         ) : (
           <div className="ds-notfound">
             <p className="ds-mono">{section && slug ? `${section}/${slug}` : 'Unknown address'}</p>
             <h1>This reference is not in the archive.</h1>
             <p>It may have been renamed or moved to another section.</p>
-            <Link to={base} className="ds-pill ds-pill--solid">
+            <Link to="/" className="ds-pill ds-pill--solid">
               Back to the library <Glyph>←</Glyph>
             </Link>
           </div>

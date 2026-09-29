@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import type { Item } from '../../../data/types'
+import type { Item } from '../data/types'
 
 export const prefersReducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches
 

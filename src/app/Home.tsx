@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Link, useLocation } from 'react-router'
-import { getItem, items, searchItems, sections } from '../../../data/catalog'
-import { subtypeLabel } from '../../../data/sections'
-import type { Item, Section } from '../../../data/types'
+import { getItem, items, searchItems, sections } from '../data/catalog'
+import { subtypeLabel } from '../data/sections'
+import type { Item, Section } from '../data/types'
 import { Card, Footer, Header, InViewVideo } from './parts'
 import { prefersReducedMotion } from './util'
 
@@ -23,7 +23,7 @@ function scrollToId(id: string, smooth = true) {
   el.scrollIntoView({ behavior: smooth && !prefersReducedMotion() ? 'smooth' : 'auto', block: 'start' })
 }
 
-function Hero({ base }: { base: string }) {
+function Hero() {
   const picks = useMemo(() => heroPicks(), [])
   const animated = items.filter((i) => i.animated).length
   return (
@@ -55,7 +55,7 @@ function Hero({ base }: { base: string }) {
         <div className="ds-rise" style={{ '--i': 2 } as CSSProperties}>
           <div className="ds-mosaic">
             {picks.map((item) => (
-              <Link key={item.id} to={`${base}/effect/${item.id}`} className="ds-mosaic__tile" aria-label={item.title}>
+              <Link key={item.id} to={`/effect/${item.id}`} className="ds-mosaic__tile" aria-label={item.title}>
                 {item.media.thumb && <img src={item.media.thumb} alt={`Preview of ${item.title}`} />}
                 {item.media.video && <InViewVideo src={item.media.video} />}
               </Link>
@@ -63,7 +63,7 @@ function Hero({ base }: { base: string }) {
           </div>
           <p className="ds-mosaic__caption ds-mono">
             {picks.map((item) => (
-              <Link key={item.id} to={`${base}/effect/${item.id}`}>
+              <Link key={item.id} to={`/effect/${item.id}`}>
                 {item.title}
               </Link>
             ))}
@@ -74,7 +74,7 @@ function Hero({ base }: { base: string }) {
   )
 }
 
-function SectionBlock({ section, pool, base }: { section: Section; pool: Item[]; base: string }) {
+function SectionBlock({ section, pool }: { section: Section; pool: Item[] }) {
   const [picked, setSubtype] = useState<string | null>(null)
   const count = (id: string) => pool.filter((i) => i.subtype === id).length
   // a search can empty the chosen subtype: fall back to All instead of an empty grid
@@ -112,14 +112,14 @@ function SectionBlock({ section, pool, base }: { section: Section; pool: Item[];
       </div>
       <ul className={`ds-grid${wide ? ' ds-grid--wide' : ''}`} style={single ? { gridTemplateColumns: '1fr' } : undefined}>
         {shown.map((item, i) => (
-          <Card key={item.id} item={item} base={base} index={i} feature={single} />
+          <Card key={item.id} item={item} index={i} feature={single} />
         ))}
       </ul>
     </section>
   )
 }
 
-export function Home({ base }: { base: string }) {
+export function Home() {
   const [query, setQuery] = useState('')
   const [active, setActive] = useState<string>()
   const inputRef = useRef<HTMLInputElement>(null)
@@ -185,7 +185,7 @@ export function Home({ base }: { base: string }) {
       <a href="#ds-main" className="ds-skip">
         Skip to references
       </a>
-      <Header base={base} activeSection={searching ? undefined : active} onAnchor={jump}>
+      <Header activeSection={searching ? undefined : active} onAnchor={jump}>
         <form role="search" className="ds-search" onSubmit={(e) => e.preventDefault()}>
           <label htmlFor="ds-q" className="ds-sr">
             Search references
@@ -226,11 +226,11 @@ export function Home({ base }: { base: string }) {
             </p>
           </div>
         ) : (
-          <Hero base={base} />
+          <Hero />
         )}
 
         {visible.map(({ section, pool }) => (
-          <SectionBlock key={section.id} section={section} pool={pool} base={base} />
+          <SectionBlock key={section.id} section={section} pool={pool} />
         ))}
 
         {searching && results.length === 0 && (
