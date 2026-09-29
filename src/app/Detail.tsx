@@ -10,26 +10,6 @@ import { copyText, downloadFile, downloadZip } from '../lib/item-actions'
 import { Card, Footer, Glyph, Header, MotionTag } from './parts'
 import { kindLabel, prefersReducedMotion } from './util'
 
-/**
- * useReadme returns '' both while loading and when the file is empty: track which one it is.
- * Callers are keyed by item id, so the loaded flag never needs resetting.
- */
-function useReadmeState(item: Item) {
-  const text = useReadme(item)
-  const [loaded, setLoaded] = useState(false)
-  useEffect(() => {
-    let alive = true
-    item
-      .readme()
-      .catch(() => '')
-      .then(() => alive && setLoaded(true))
-    return () => {
-      alive = false
-    }
-  }, [item])
-  return { text, loading: !loaded && !text }
-}
-
 function Stage({ item }: { item: Item }) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [paused, setPaused] = useState(() => prefersReducedMotion())
@@ -148,7 +128,7 @@ function Actions({ item, readme }: { item: Item; readme: string }) {
 }
 
 function Readme({ item }: { item: Item }) {
-  const { text, loading } = useReadmeState(item)
+  const { text, loading } = useReadme(item)
   if (loading)
     return (
       <div className="ds-skeleton" aria-label="Loading description">
@@ -341,7 +321,7 @@ function Facts({ item }: { item: Item }) {
 }
 
 function ItemView({ item }: { item: Item }) {
-  const { text } = useReadmeState(item)
+  const { text } = useReadme(item)
   const more = getSiblings(item).slice(0, 3)
 
   return (

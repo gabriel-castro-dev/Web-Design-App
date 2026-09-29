@@ -1,18 +1,21 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Item, SourceFile } from '../data/types'
 
-/** Loads an item's README text (empty string while loading). */
+/** Loads an item's README. `loading` tells a pending fetch apart from an empty README. */
 export function useReadme(item: Item | undefined) {
-  const [text, setText] = useState('')
+  const [state, setState] = useState({ text: '', loading: true })
   useEffect(() => {
     let alive = true
-    setText('')
-    item?.readme().then((t) => alive && setText(t))
+    setState({ text: '', loading: true })
+    item
+      ?.readme()
+      .catch(() => '')
+      .then((text) => alive && setState({ text, loading: false }))
     return () => {
       alive = false
     }
   }, [item])
-  return text
+  return state
 }
 
 /** Loads every source file of an item: raw text plus build-time highlighted HTML. */
