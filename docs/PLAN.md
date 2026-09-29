@@ -65,7 +65,10 @@ Outcome: **Dark Studio / taste-skill** won and became the app (`src/app/`). The 
 5. Performance: `loading="lazy"` for images, and `preload="none"` plus an IntersectionObserver play/pause for videos. `vercel.json` sets `Cache-Control: public, max-age=31536000, immutable` for `/assets/*` and adds an SPA rewrite.
 6. Polish pass (a11y, responsive, reduced motion): the chosen variant already covers these; revisit after real use.
 
-## Phase 3 — Live previews (planned, not in v1)
+## Phase 3 — Live previews (done)
+
+Shipped: `preview.html?item=<section>/<slug>` renders any component demo in isolation (own Tailwind build scanning `design-references/`, shadcn theme, error boundary); the detail page has a Recording / Live toggle; `npm run typecheck:refs` (part of `tsc -b`) keeps every reference compiling. Original plan below.
+
 
 - Install the union of the effect dependencies: `motion`, `framer-motion`, `gsap`, `@gsap/react`, `lenis`, `@number-flow/react`, `canvas-confetti`, `react-intersection-observer`, `react-use-measure`, `class-variance-authority`, `lucide-react`, `react-icons`, and the shadcn primitives used (Button, Badge, Card, Switch, Item, Separator, ...) in `src/components/ui/`.
 - Make every reconstructed `.tsx` compile (`tsc` over `design-references/**`), fixing the gaps listed in each README (missing keyframes, custom theme tokens).
@@ -77,4 +80,5 @@ Outcome: **Dark Studio / taste-skill** won and became the app (`src/app/`). The 
 
 - 21st.dev: `scripts/fetch-21st.sh <out> <urls...>`, then reconstruct the component into an item folder.
 - Images: create the item folder with the image, `README.md` and `meta.json`.
+- Component items need a `demo.tsx` (default export) to get a live preview; run `npm run typecheck:refs` and open `/preview.html?item=<id>` to check it.
 - Always run `npm run compress` before committing media.
