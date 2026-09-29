@@ -1,0 +1,26 @@
+{
+  "title": "Team Grid (SmoothUI)",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@educalvolpz/components/team-1"
+  },
+  "tags": [
+    "team",
+    "editorial",
+    "spring-hover",
+    "in-view-stagger",
+    "photo-zoom",
+    "reduced-motion",
+    "responsive-grid"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "motion"
+  ],
+  "summary": "Editorial team grid: items fade up in stagger on view; hover springs the card and zooms the photo."
+}

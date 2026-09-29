@@ -1,0 +1,26 @@
+{
+  "title": "Stacking Cards",
+  "section": "scroll-effects",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@danielpetho/components/stacking-cards"
+  },
+  "tags": [
+    "scroll-linked",
+    "sticky-stack",
+    "card-pile",
+    "scale-down",
+    "scroll-progress",
+    "colorful-cards",
+    "peek-offset"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "motion"
+  ],
+  "summary": "Bold colour cards stick one over another, peeking below, and shrink from the top edge as you scroll."
+}

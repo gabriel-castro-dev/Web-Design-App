@@ -1,0 +1,27 @@
+{
+  "title": "Members 03",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@shadcnui-blocks/components/members-03"
+  },
+  "tags": [
+    "team",
+    "members-panel",
+    "app-ui",
+    "photo-grid",
+    "header-bar",
+    "invite-button",
+    "static"
+  ],
+  "animated": false,
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "lucide-react"
+  ],
+  "summary": "App-style members page: gray header with search and Invite button above a grid of square photo tiles."
+}

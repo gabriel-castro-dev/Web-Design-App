@@ -1,0 +1,14 @@
+{
+  "title": "Pricing Module",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ruixen.ui/components/pricing-module"
+  },
+  "tags": ["pricing", "four-tiers", "billing-toggle", "recommended-scale", "feature-checklist", "hover-shadow", "centered-cards"],
+  "animated": false,
+  "stack": ["react", "tailwind", "shadcn", "lucide-react"],
+  "summary": "Four centered plan cards with feature checks/crosses; annual switch swaps prices, recommended card scaled up."
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Pricing Card",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@kavikatiyar/components/price"
+  },
+  "tags": [
+    "pricing-card",
+    "hover-scale",
+    "popular-badge",
+    "stagger-entrance",
+    "variants",
+    "monochrome",
+    "lift"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "shadcn"
+  ],
+  "summary": "Rounded pricing cards that scale on hover; popular one raised with a pill; cards fade up in sequence."
+}

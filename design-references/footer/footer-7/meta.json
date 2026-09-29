@@ -1,0 +1,14 @@
+{
+  "title": "Footer 7",
+  "section": "footer",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@shadcnblockscom/components/footer-7"
+  },
+  "tags": ["footer", "link-columns", "social-icons", "legal-bar", "minimal", "light", "responsive"],
+  "animated": false,
+  "stack": ["react", "tailwind", "react-icons"],
+  "summary": "Whitespace-heavy footer: logo, blurb and social icons left, three link columns right, legal bar below."
+}

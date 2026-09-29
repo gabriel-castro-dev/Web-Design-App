@@ -1,0 +1,14 @@
+{
+  "title": "Marquee",
+  "section": "logo-marquee",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@lukacho/components/marquee"
+  },
+  "tags": ["marquee", "logos", "css-keyframes", "pause-on-hover", "tech-stack", "infinite-scroll", "airy"],
+  "animated": true,
+  "stack": ["react", "tailwind"],
+  "summary": "Airy row of monochrome tech logos drifting left via CSS keyframes, hard-clipped, with optional pause on hover."
+}

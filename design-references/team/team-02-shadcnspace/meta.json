@@ -1,0 +1,27 @@
+{
+  "title": "Team 02",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@shadcnspace/components/team-02"
+  },
+  "tags": [
+    "team",
+    "hover-overlay",
+    "social-reveal",
+    "scroll-reveal",
+    "stagger",
+    "editorial-portraits",
+    "four-column"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "motion",
+    "shadcn"
+  ],
+  "summary": "Sharp portrait cards that fade in a dark scrim with round Instagram, Dribbble and LinkedIn buttons on hover."
+}

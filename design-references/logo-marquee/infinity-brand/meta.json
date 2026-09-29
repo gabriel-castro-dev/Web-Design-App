@@ -1,0 +1,14 @@
+{
+  "title": "Infinity Brand",
+  "section": "logo-marquee",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@uilayout.contact/components/infinity-brand"
+  },
+  "tags": ["marquee", "infinite-scroll", "social-icons", "css-keyframes", "edge-fade", "icon-tiles", "mask"],
+  "animated": true,
+  "stack": ["react", "tailwind"],
+  "summary": "CSS keyframe strip of square social-icon tiles scrolling left with an asymmetric edge-fade mask."
+}

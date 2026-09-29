@@ -1,0 +1,26 @@
+{
+  "title": "Circular Split Roll",
+  "section": "scroll-effects",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@hyperiux/components/circular-split-roll"
+  },
+  "tags": [
+    "scroll-triggered",
+    "pinned",
+    "scrub",
+    "circular-wheel",
+    "parallel-arcs",
+    "gallery",
+    "focus-scale-fade"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "gsap"
+  ],
+  "summary": "Pinned scroll: titles (left) and image cards (right) roll on two facing arcs, one pair in focus."
+}

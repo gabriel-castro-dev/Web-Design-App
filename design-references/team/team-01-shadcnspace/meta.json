@@ -1,0 +1,28 @@
+{
+  "title": "Team 01",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@shadcnspace/components/team-01"
+  },
+  "tags": [
+    "team",
+    "shaped-portraits",
+    "scroll-reveal",
+    "stagger",
+    "hover-grayscale",
+    "social-icons",
+    "four-column"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "motion",
+    "shadcn",
+    "lucide-react"
+  ],
+  "summary": "Four-column grid of cut-out portraits on bold colour shapes; stagger rise-in, grayscale on hover."
+}

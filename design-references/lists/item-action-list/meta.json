@@ -1,0 +1,14 @@
+{
+  "title": "Item Action List",
+  "section": "lists",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@sean0205/components/item-action-list"
+  },
+  "tags": ["list", "settings-rows", "outline-cards", "icon-tiles", "action-buttons", "static", "shadcn-item"],
+  "animated": false,
+  "stack": ["react", "tailwind", "shadcn", "lucide-react"],
+  "summary": "Stack of bordered settings rows with icon tile, title, description and an outline or solid small button."
+}

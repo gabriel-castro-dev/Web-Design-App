@@ -1,0 +1,14 @@
+{
+  "title": "Item 19",
+  "section": "lists",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@felipemenezes098/components/item-19"
+  },
+  "tags": ["list", "activity-feed", "icon-tiles", "timestamps", "hairline-dividers", "static", "shadcn-item"],
+  "animated": false,
+  "stack": ["react", "tailwind", "shadcn", "lucide-react"],
+  "summary": "Narrow activity feed of four hairline-divided rows: icon tile, title, description and right-aligned time."
+}

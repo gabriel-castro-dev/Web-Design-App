@@ -1,0 +1,26 @@
+{
+  "title": "Scroll Portrait Wall",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ruixen.ui/components/scroll-portrait-wall"
+  },
+  "tags": [
+    "team",
+    "scroll-scrub",
+    "portrait-wall",
+    "grow-shrink",
+    "mix-blend",
+    "sticky-title",
+    "grayscale"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "gsap"
+  ],
+  "summary": "Grayscale portraits grow from a corner to full size and shrink away on scroll past a pinned blended title."
+}

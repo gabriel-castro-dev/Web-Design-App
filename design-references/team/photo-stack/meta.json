@@ -1,0 +1,25 @@
+{
+  "title": "Interactive Photo Stack",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ravikatiyar162/components/photo-stack"
+  },
+  "tags": [
+    "photo-stack",
+    "polaroid",
+    "hover-scatter",
+    "random-positions",
+    "click-to-select",
+    "css-transitions",
+    "team"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind"
+  ],
+  "summary": "Polaroid pile that scatters randomly across the viewport on hover; clicking a photo spins it and re-stacks."
+}

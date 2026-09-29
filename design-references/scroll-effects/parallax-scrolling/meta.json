@@ -1,0 +1,26 @@
+{
+  "title": "Parallax Scrolling",
+  "section": "scroll-effects",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@osmosupply/components/parallax-scrolling"
+  },
+  "tags": [
+    "parallax",
+    "scroll-scrub",
+    "layered-hero",
+    "text-behind-subject",
+    "smooth-scroll",
+    "cinematic",
+    "depth-layers"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "gsap",
+    "lenis"
+  ],
+  "summary": "Night-mountain hero in four depth layers with a huge title behind the figure; layers drift at varied speeds."
+}

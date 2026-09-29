@@ -1,0 +1,29 @@
+{
+  "title": "Pricing Section (Tabs)",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@aymanch-03/components/pricing-section"
+  },
+  "tags": [
+    "pricing",
+    "sliding-pill-tabs",
+    "layout-animation",
+    "number-flow",
+    "four-tiers",
+    "grid-background",
+    "radial-glow"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "number-flow",
+    "shadcn",
+    "lucide-react"
+  ],
+  "summary": "Four tiers with a spring-sliding Monthly/Yearly pill that rolls prices; glowing popular, inverted Enterprise."
+}

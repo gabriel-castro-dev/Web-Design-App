@@ -1,0 +1,14 @@
+{
+  "title": "Works Wheel",
+  "section": "scroll-effects",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@crafterui/components/works-wheel"
+  },
+  "tags": ["carousel", "3d-drum", "ring-layout", "wheel-drag-keys", "css-3d", "raf-easing", "showcase"],
+  "animated": true,
+  "stack": ["react", "tailwind"],
+  "summary": "Artwork cards in a ring that morph into a vertical 3D drum on wheel, drag or arrows, snapping card by card."
+}

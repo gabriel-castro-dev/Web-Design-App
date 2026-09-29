@@ -1,0 +1,14 @@
+{
+  "title": "Comparison 02",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@hirael/components/comparison-02"
+  },
+  "tags": ["comparison-table", "highlighted-column", "editorial", "serif-headline", "check-marks", "warm-palette", "static"],
+  "animated": false,
+  "stack": ["react", "tailwind", "shadcn", "lucide-react"],
+  "summary": "Serif-headed three-way table where the middle column is one tall card with a badge, checks and the only CTA."
+}

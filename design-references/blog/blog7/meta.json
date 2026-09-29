@@ -1,0 +1,14 @@
+{
+  "title": "Blog7",
+  "section": "blog",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@shadcnblockscom/components/blog7"
+  },
+  "tags": ["blog", "card-grid", "pill-badge", "image-hover", "16-9-images", "read-more", "responsive-grid"],
+  "animated": false,
+  "stack": ["react", "tailwind", "shadcn", "lucide-react"],
+  "summary": "Centered intro with pill badge over a 1/2/3-column grid of 16:9 post cards whose image dims on hover."
+}

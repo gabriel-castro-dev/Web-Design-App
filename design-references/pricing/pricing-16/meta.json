@@ -1,0 +1,27 @@
+{
+  "title": "Pricing 16",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ln-dev7/components/pricing-16"
+  },
+  "tags": [
+    "pricing",
+    "two-plans",
+    "one-time-price",
+    "recommended-pill",
+    "monochrome",
+    "minimal",
+    "static"
+  ],
+  "animated": false,
+  "stack": [
+    "react",
+    "tailwind",
+    "shadcn",
+    "lucide-react"
+  ],
+  "summary": "Minimal Free vs Pro one-time cards; Pro has a double outline, black CTA and RECOMMENDED pill on its border."
+}

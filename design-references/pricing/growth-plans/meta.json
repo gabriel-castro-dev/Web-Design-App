@@ -1,0 +1,14 @@
+{
+  "title": "Growth Plans",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@uilayout.contact/components/growth-plans"
+  },
+  "tags": ["pricing", "billing-toggle", "number-flow", "inverted-card", "featured-scale", "monochrome", "three-tiers"],
+  "animated": true,
+  "stack": ["react", "tailwind", "shadcn", "number-flow", "lucide-react"],
+  "summary": "Monochrome three-tier pricing with a black inverted, enlarged middle card; the yearly switch rolls the digits."
+}

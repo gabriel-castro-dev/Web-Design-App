@@ -1,0 +1,14 @@
+{
+  "title": "Pricing 9",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@diarmuradi/components/pricing-9"
+  },
+  "tags": ["pricing-calculator", "add-on-switches", "animated-total", "digit-roll", "blur-spring", "build-your-plan", "glossy-button"],
+  "animated": true,
+  "stack": ["react", "tailwind", "motion", "shadcn", "lucide-react", "base-ui", "class-variance-authority"],
+  "summary": "Add-on switch list beside a plan panel; toggling rolls the huge total digit by digit with blur and spring."
+}

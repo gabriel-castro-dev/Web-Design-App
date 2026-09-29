@@ -1,0 +1,14 @@
+{
+  "title": "Modern Stunning Sign-In",
+  "section": "auth",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@preetsuthar17/components/modern-stunning-sign-in"
+  },
+  "tags": ["sign-in", "dark", "gradient-card", "glass-look", "pill-buttons", "google-login", "social-proof"],
+  "animated": false,
+  "stack": ["react", "tailwind"],
+  "summary": "Near-black page with a gradient glass card: email/password inputs, pill Sign in and Google buttons."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Infinite Slider",
+  "section": "logo-marquee",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ibelick/components/infinite-slider"
+  },
+  "tags": [
+    "marquee",
+    "infinite-scroll",
+    "logos",
+    "hover-speed",
+    "vertical-option",
+    "seamless-loop",
+    "motion-primitives"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "summary": "Borderless row of big logos gliding in a seamless loop; supports reverse, vertical and hover speed change."
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Logo Marquee",
+  "section": "logo-marquee",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@grootstudio/components/logo-marquee"
+  },
+  "tags": ["marquee", "logos", "infinite-scroll", "edge-fade", "hover-speed-up", "monochrome-dark", "trusted-by"],
+  "animated": true,
+  "stack": ["react", "tailwind", "motion"],
+  "summary": "Slim band of small logos drifting right with faded edges, turning white in dark mode and speeding up on hover."
+}

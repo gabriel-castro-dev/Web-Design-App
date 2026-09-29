@@ -1,0 +1,14 @@
+{
+  "title": "Pricing (Codehagen)",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@Codehagen/components/pricing"
+  },
+  "tags": ["pricing", "billing-toggle", "confetti", "number-flow", "spring-entrance", "popular-card", "center-stage"],
+  "animated": true,
+  "stack": ["react", "tailwind", "framer-motion", "canvas-confetti", "number-flow", "shadcn", "lucide-react"],
+  "summary": "Three cards with side cards tucked behind a raised popular one; annual switch rolls prices and fires confetti."
+}

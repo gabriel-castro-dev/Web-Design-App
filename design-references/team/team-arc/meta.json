@@ -1,0 +1,26 @@
+{
+  "title": "Animated Team Section (Arc Fan)",
+  "section": "team",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ravikatiyar162/components/team-section"
+  },
+  "tags": [
+    "team",
+    "arc-fan",
+    "card-hand",
+    "spring-entrance",
+    "in-view",
+    "hover-scale",
+    "overlapping-photos"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion"
+  ],
+  "summary": "Square team photos fanned on an arc like a hand of cards; spring out from centre on view, grow on hover."
+}

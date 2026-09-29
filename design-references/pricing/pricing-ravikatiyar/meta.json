@@ -1,0 +1,30 @@
+{
+  "title": "Pricing Section (Starfield)",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@ravikatiyar162/components/pricing"
+  },
+  "tags": [
+    "pricing",
+    "starfield",
+    "cursor-attraction",
+    "spring",
+    "confetti",
+    "number-flow",
+    "billing-toggle",
+    "dark"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "framer-motion",
+    "canvas-confetti",
+    "number-flow",
+    "lucide-react"
+  ],
+  "summary": "Twinkling stars drawn toward the cursor behind translucent plan cards; annual toggle rolls prices, confetti."
+}

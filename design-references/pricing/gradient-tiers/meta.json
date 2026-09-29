@@ -1,0 +1,26 @@
+{
+  "title": "Gradient Tiers",
+  "section": "pricing",
+  "subtype": null,
+  "kind": "component",
+  "source": {
+    "name": "21st.dev",
+    "url": "https://21st.dev/@arihantcodes_1f7b8c4d/components/gradient-tiers"
+  },
+  "tags": [
+    "pricing-table",
+    "pastel-gradient",
+    "editorial",
+    "serif-headline",
+    "scroll-reveal",
+    "stagger",
+    "container-queries"
+  ],
+  "animated": true,
+  "stack": [
+    "react",
+    "tailwind",
+    "lucide-react"
+  ],
+  "summary": "Paper-like three-column pricing box with pastel washes and serif names; columns fade up in stagger on view."
+}
