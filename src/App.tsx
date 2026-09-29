@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router'
 import { sections } from './data/catalog'
+import { VariantHost } from './variants/VariantHost'
 
 // Placeholder shell until the bake-off picks a visual direction.
 function Index() {
@@ -22,6 +23,7 @@ function App() {
   return (
     <Routes>
       <Route index element={<Index />} />
+      <Route path="variants/:direction/:impl/*" element={<VariantHost />} />
     </Routes>
   )
 }
