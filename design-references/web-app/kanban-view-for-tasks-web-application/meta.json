@@ -1,7 +1,14 @@
 {
   "title": "Kanban View for Tasks Web Application",
+  "section": "web-app",
+  "subtype": "tasks",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/3827571-Kanban-View-for-Tasks-Web-Application"
-  }
+  },
+  "tags": ["kanban", "flat", "navy-rail", "status-rings", "drag-and-drop", "hairline-cards", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Flat kanban board with navy icon rail, hairline white cards, status rings and a coral drag state"
 }

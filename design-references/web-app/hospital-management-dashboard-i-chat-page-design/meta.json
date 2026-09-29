@@ -1,7 +1,14 @@
 {
-  "title": "Hospital management dashboard I Chat Page Design",
+  "title": "Hospital Management Dashboard: Chat Page (Pre Clinic)",
+  "section": "web-app",
+  "subtype": "chat",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/24826525-Hospital-management-dashboard-I-Chat-Page-Design"
-  }
+  },
+  "tags": ["chat", "healthcare", "teal-accent", "borderless", "sidebar-nav", "message-bubbles", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy clinic admin chat with muted teal active nav and outgoing bubbles on borderless pale-gray cards"
 }

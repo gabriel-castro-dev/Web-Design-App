@@ -1,7 +1,14 @@
 {
-  "title": "Electric E Commerce Web Application",
+  "title": "Electric E-Commerce Web Application",
+  "section": "web-app",
+  "subtype": "ecommerce",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27673911-Electric-E-Commerce-Web-Application"
-  }
+  },
+  "tags": ["ecommerce", "single-accent", "orange", "pill-controls", "flat-panels", "quick-commerce", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "White quick-commerce storefront with vermilion trust bar, pill filters and flat gray product panels"
 }

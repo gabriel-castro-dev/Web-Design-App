@@ -1,7 +1,14 @@
 {
-  "title": "Financial web application Dashboard design",
+  "title": "Financial Entity Management Dashboard (Otonomos)",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/26712555-Financial-web-application-Dashboard-design"
-  }
+  },
+  "tags": ["fintech", "violet", "indigo-text", "data-table", "status-chips", "pixel-logo", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Periwinkle-white entity admin with violet tabs and buttons, indigo headings and soft status chips"
 }

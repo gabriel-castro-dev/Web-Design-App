@@ -1,0 +1,14 @@
+{
+  "title": "Log In Screen with 3D Illustration Panel",
+  "section": "auth",
+  "subtype": "login",
+  "kind": "image",
+  "source": {
+    "name": "Dribbble",
+    "url": "https://dribbble.com/shots/26411593-Log-In-screen-design-for-web-application"
+  },
+  "tags": ["login", "split-screen", "3d-illustration", "pill-inputs", "iridescent", "monochrome-form", "periwinkle"],
+  "animated": false,
+  "stack": [],
+  "summary": "Split login with a monochrome pill form, iridescent Apple button and a vivid blue 3D voxel art panel"
+}

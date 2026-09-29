@@ -1,7 +1,14 @@
 {
-  "title": "Mental health application",
+  "title": "Mental Health Application (Mentalthy)",
+  "section": "web-app",
+  "subtype": "booking",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/17155604-Mental-health-application"
-  }
+  },
+  "tags": ["health", "booking", "provider-cards", "blue-accent", "rating-badges", "soft-shadows", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Airy therapist-booking app with soft white doctor cards, royal blue pills and traffic-light ratings"
 }

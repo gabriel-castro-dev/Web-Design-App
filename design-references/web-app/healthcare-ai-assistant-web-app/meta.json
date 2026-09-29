@@ -1,7 +1,14 @@
 {
-  "title": "Healthcare AI Assistant Web App",
+  "title": "Healthcare AI Assistant Web App (Healthology)",
+  "section": "web-app",
+  "subtype": "health",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27392838-Healthcare-AI-Assistant-Web-App"
-  }
+  },
+  "tags": ["ai-assistant", "aurora-gradient", "mesh-gradient", "navy-accent", "pill-nav", "prompt-composer", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Chat-first health AI home on a lavender-to-cyan aurora with white pills, navy actions and a glossy orb"
 }

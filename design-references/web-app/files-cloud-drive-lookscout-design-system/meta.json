@@ -1,7 +1,14 @@
 {
-  "title": "Files Cloud Drive Lookscout Design System",
+  "title": "Files Cloud Drive (Lookscout Design System)",
+  "section": "web-app",
+  "subtype": "files",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/26839751-Files-Cloud-Drive-Lookscout-Design-System"
-  }
+  },
+  "tags": ["dark-mode", "file-manager", "charcoal", "blue-accent", "status-pills", "progress-bars", "sidebar-nav"],
+  "animated": false,
+  "stack": [],
+  "summary": "Charcoal dark file manager with glowing file-type cards, blue progress bars and solid status pills"
 }

@@ -1,7 +1,14 @@
 {
-  "title": "Email Web Application",
+  "title": "Email Web Application (Selfmail)",
+  "section": "web-app",
+  "subtype": "email",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/23444262-Email-Web-Application"
-  }
+  },
+  "tags": ["email", "three-pane", "minimal", "monochrome", "navy-accent", "pastel-badges", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Calm white three-pane mail client with hairline dividers, navy buttons and tiny pastel badges"
 }

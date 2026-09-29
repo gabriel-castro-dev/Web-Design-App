@@ -1,8 +1,14 @@
 {
-  "title": "Hr Dashboard Talentasync",
+  "title": "HR Dashboard (TalentaSync)",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Pinterest",
     "url": "https://i.pinimg.com/originals/de/e0/fd/dee0fd83ee6c224468ee15ffb8086c0a.jpg"
   },
-  "_seed": "HR dashboard. Deep green header band flows into a cream body. Pill nav, \"Good Morning\" greeting, 4 KPI cards with delta chips plus an \"Add new widget\" card, list cards (jobs, interviews), a segmented bar for employment status and a dot-matrix attendance heatmap."
+  "tags": ["hr", "forest-green", "cream", "kpi-cards", "monochrome-charts", "heatmap", "pill-nav"],
+  "animated": false,
+  "stack": [],
+  "summary": "HR dashboard with forest-green header band over cream body, KPI cards and green-ramp charts"
 }

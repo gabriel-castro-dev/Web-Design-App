@@ -1,7 +1,14 @@
 {
-  "title": "Hirely Recruitment Web Application UI UX Case Study",
+  "title": "Hirely Recruitment Web App",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27438275-Hirely-Recruitment-Web-Application-UI-UX-Case-Study"
-  }
+  },
+  "tags": ["job-board", "recruitment", "blue-accent", "filter-sidebar", "hairline-cards", "match-score", "light"],
+  "animated": false,
+  "stack": [],
+  "summary": "Icy blue job board with filter sidebar, hairline job cards, royal blue CTAs and an AI match score ring"
 }

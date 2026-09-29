@@ -1,7 +1,14 @@
 {
-  "title": "Logistics Fleet Management Dashboard",
+  "title": "Logistics Fleet Management Dashboard (Delivera)",
+  "section": "web-app",
+  "subtype": "dashboard",
+  "kind": "image",
   "source": {
     "name": "Dribbble",
     "url": "https://dribbble.com/shots/27210450-Logistics-Fleet-Management-Dashboard"
-  }
+  },
+  "tags": ["logistics", "map", "coral-accent", "black-and-white", "hatch-pattern", "choropleth", "bento-grid"],
+  "animated": false,
+  "stack": [],
+  "summary": "Light fleet dashboard pairing a map with shipment cards and coral-tint charts with hatched status bars"
 }
